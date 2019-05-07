@@ -1,0 +1,28 @@
+* {
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body > h1 {
+
+  text-align: center;
+  background: red;
+  color: white;
+}
+
+.pending {
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pending-guests {
+
+  width: 200px;
+  height: 200px;
+  background: red;
+  color: white;
+  margin: 10px;
+}
